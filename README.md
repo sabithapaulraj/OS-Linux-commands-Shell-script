@@ -1,4 +1,4 @@
-![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/8b856d3b-0923-4c98-b0f2-1f9047c621a0)# OS-Linux-commands-Shell-scripting
+# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -398,8 +398,10 @@ sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
 
-
 sed -n '2,4{s/$/*/;p}' file23
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/9ef530b7-6b86-442c-a1c4-f6aec9402f59)
+
 
 
 
@@ -414,7 +416,10 @@ cat > file21
 1004 | Sit |  7000 | Dev
 ``` 
 sort file21
+
 ## OUTPUT
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/51a6dc04-72ce-4349-b94e-f47c4abb8014)
 
 
 cat > file22
@@ -427,7 +432,12 @@ cat > file22
 1004 | Sit |  7000 | Dev
 ``` 
 uniq file22
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/c0f8194d-93a1-4c95-8f9e-2fdc46592491)
+
 ## OUTPUT
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/e90ed644-bb87-4d12-889f-58b7f744eb7a)
 
 
 
@@ -436,6 +446,9 @@ uniq file22
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
 
+ ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/a3cbf45a-24b2-44b1-8855-20885e218ca5)
+
+
 cat < urllist.txt
 ```
 www. yahoo. com
@@ -443,18 +456,28 @@ www. google. com
 www. mrcet.... com
 ^d
  ```
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/71b8e09a-f7fe-4796-9f6a-331fd1daddac)
+
 cat > urllist.txt
 ```
 www. yahoo. com
 www. google. com
 www. mrcet.... com
  ```
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/c3a1cbef-00bc-461d-bdda-f7fb5b830f8f)
+
 cat urllist.txt | tr -d ' '
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/e9b48bf2-dc38-4fd9-8eea-77d3a153342e)
+
  ## OUTPUT
 
-
- 
 cat urllist.txt | tr -d ' ' | tr -s '.'
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/912fb2e9-1670-4c02-844d-7cca8b4b027f)
+
 ## OUTPUT
 
 
@@ -463,25 +486,42 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 tar -cvf backup.tar *
 ## OUTPUT
 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/29be9ead-732f-4a74-ab4d-22209845a4e6)
+
+
 
 mkdir backupdir
  
 mv backup.tar backupdir
- 
+
+ ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/daa028aa-423f-4c58-82af-9c8335cfa77d)
+
 tar -tvf backup.tar
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/f17b5715-a691-4630-9b81-fff64bd9a586)
+
 ## OUTPUT
 
 
 tar -xvf backup.tar
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/6412aa5a-e79b-4dee-9c8b-0cc6298aac0f)
+
 ## OUTPUT
 
 gzip backup.tar
 
 ls .gz
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/13e12f3c-423d-4d58-801a-15be45bae86d)
+
 ## OUTPUT
  
 gunzip backup.tar.gz
-## OUTPUT
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/fec89559-c8d1-4e2d-a4b3-59fbca4db0a6)
+
+
 
  
 # Shell Script
@@ -493,7 +533,10 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
 
- 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/b482cca7-8962-4860-b090-01c2f7d5631f)
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/1b3717e7-816c-4559-9162-ba1bcc381389)
+
 cat << stop > herecheck.txt
 ```
 hello in this world
@@ -504,6 +547,10 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/8d87f8c1-ec1f-40bf-ae3d-a238cdae7f1e)
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/bb580d5e-9d98-4bd4-9772-907f5a493a7b)
 
 
 cat < scriptest.sh 
@@ -543,22 +590,37 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
- 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/c588b9fa-70fb-46e2-b813-890537ed1ed3)
+
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/2e16bd60-d505-4007-b33f-56db9624a4e9)
+
+ ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/5231a559-d457-4144-9049-3cc26942878f)
+
 ls file1
 ## OUTPUT
 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/1afa9eff-1dd2-4cb6-9c04-0f1a5c4dbaad)
+
 echo $?
 ## OUTPUT 
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/2e61fc4c-c3cc-4d53-8ac2-8699b8848d6b)
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+
+ ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/f75d0aeb-bed2-4131-8d09-0354e339aed0)
+
 abcd
  
 echo $?
  ## OUTPUT
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/b2683246-7732-419a-9aa6-9b83bd1a3f62)
 
 
  
@@ -590,7 +652,10 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+## OUTPUT
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/f9c4c7d3-3f51-4654-96c8-1089fd444799)
+
 
 
 
@@ -598,6 +663,9 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/c3e6a3d1-5768-47df-bb8e-b4d5e1ee6f6a)
+
 
 
 # check file ownership
@@ -625,6 +693,10 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/4bc0833c-4767-48eb-b442-f8de40d1ba95)
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/a9f06f33-d615-494c-aeeb-772da14700cd)
 
 # check if with file location
 cat>ifnested.sh 
@@ -672,6 +744,10 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/387b2b9f-6946-482f-9a13-5cdefbcbdd1a)
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/055e38c0-5d0e-442e-9a36-59c4797fd3e1)
+
 
 
 # using numeric test comparisons
@@ -711,10 +787,17 @@ echo “The values are different”
 fi
 ```
 
+
+
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/483b0887-bd1e-4eb6-9591-08ecec1fc41e)
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/03f55e4e-a4a2-4e90-9c0b-87b39075f66e)
+
+
 
 # check if a file
 cat > ifnested.sh 
@@ -763,7 +846,10 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/325ec43b-4197-462d-94c4-9d9657961af2)
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/83a0241b-4020-430b-9a7a-202965b054f5)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -792,7 +878,9 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/bcc634bc-5954-4232-90aa-05be0d3d1ca0)
 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/c4c90885-c2f1-4718-ae16-65a530a98edc)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -808,6 +896,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/a41b9a13-0f5e-42d0-a411-0fb590cd5671)
 
 # using the case command
 cat >casecheck.sh 
