@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/8b856d3b-0923-4c98-b0f2-1f9047c621a0)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -30,6 +30,8 @@ s.n. dasgupta
 sumit chakrobarty
 ^d
 ```
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/8d826f4f-5c02-4397-8754-742d054f20a7)
+
 cat > file2
 ```
 anil aggarwal
@@ -39,26 +41,33 @@ lalit chowdury
 s.n. dasgupta
 ^d
 ```
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/f4b5ee19-22a5-4d43-9368-46eb73d4bf45)
+
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/aa3fbd68-ad6c-44b0-8eda-e3ee0d71f2f0)
 
 
 
 cat < file2
 ## OUTPUT
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/287ffb1f-7eda-4bc8-94b3-5d94a22b53d0)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/f1fbe37f-f73e-46d0-99ba-4e57dac57f19)
+
 comm file1 file2
  ## OUTPUT
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/f8a1e416-be3a-42c5-b6f4-fe2ef97b44a1)
 
  
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/1a74a219-0b91-4c01-89e7-0eeab25aee37)
 
 
 #Filters
@@ -71,6 +80,8 @@ Hello world
 This is my world
 ^d
 ```
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/0a1d3aa9-90c5-4e86-bed7-55ab72481321)
+
 cat > file22
 ```
 1001 | Ram | 10000 | HR
@@ -78,10 +89,12 @@ cat > file22
 1003 | Joe |  7000 | Developer
 ^d
 ```
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/99bbb4e0-3692-4fcf-92b1-38bce98bb31d)
 
 
 cut -c1-3 file11
 ## OUTPUT
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/bc992536-4ea0-40e7-9ae9-b170cf132843)
 
 
 
@@ -89,11 +102,13 @@ cut -c1-3 file11
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/9dead051-1260-4d87-87a6-eb6df2b9df61)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/41befca4-e6bb-4358-8566-a983fe146669)
 
 cat < newfile 
 ```
@@ -101,6 +116,8 @@ Hello world
 hello world
 ^d
 ````
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/69a1d4f4-c9dc-4e66-b7a9-6c1b68d16af6)
+
 cat > newfile 
 Hello world
 hello world
@@ -108,37 +125,43 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/1f08bc02-3855-49b7-a099-bfe1a834d037)
 
 
 grep hello newfile 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/0837caf9-b302-4def-967a-6a7c8a5cdff6)
+
 ## OUTPUT
-
-
-
 
 grep -v hello newfile 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/412b8aa3-1325-4af4-9c33-4ba1dbba8656)
+
 ## OUTPUT
-
-
 
 cat newfile | grep -i "hello"
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/b0a71a5f-b56b-4620-ae84-99bfaad1564d)
+
+
 ## OUTPUT
-
-
 
 
 cat newfile | grep -i -c "hello"
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/ce2b6bc9-bc37-4482-9b5b-5521ebbb1079)
+
+
 ## OUTPUT
-
-
-
 
 grep -R ubuntu /etc
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/15de3872-2de7-4426-9e63-4301478e837b)
+
 ## OUTPUT
 
-
-
 grep -w -n world newfile   
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/df782e7c-5520-43ed-b0b7-2cbe20353963)
+
 ## OUTPUT
 
 
@@ -151,6 +174,8 @@ Unix is predecessor
 Linux is best in this World
 ^d
 ```
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/b5f1c1aa-5498-49a0-b5a3-e70a91a3fb4c)
 
 cat > newfile
 ```
@@ -161,42 +186,58 @@ Unix is predecessor
 Linux is best in this World
 ^d
  ```
-egrep -w 'Hello|hello' newfile 
-## OUTPUT
 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/d1ffb5ab-0861-45ce-8599-522c5c670cae)
+
+egrep -w 'Hello|hello' newfile 
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/9278287d-f25e-402f-9d16-13ce6536c373)
+
+## OUTPUT
 
 
 egrep -w '(H|h)ello' newfile 
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/79eccf46-a367-49c4-b580-edb58aef3c31)
+
 ## OUTPUT
-
-
 
 egrep -w '(H|h)ell[a-z]' newfile 
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/c9246fbb-06b7-401b-9ca1-f3a46c0180b9)
+
 ## OUTPUT
-
-
-
 
 egrep '(^hello)' newfile 
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/e5157ede-d9bd-4a4d-96e4-4524b06fa0d2)
+
 ## OUTPUT
-
-
 
 egrep '(world$)' newfile 
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/7801cf68-847a-489f-acc9-243030933e08)
+
 ## OUTPUT
-
-
 
 egrep '(World$)' newfile 
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/eec6b232-40fc-4ef3-8a9f-ce904245e72c)
+
 ## OUTPUT
 
-
 egrep '((W|w)orld$)' newfile 
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/2eed71f6-d689-48de-bc9a-9ecb7f0dc25b)
+
 ## OUTPUT
 
 
 
 egrep '[1-9]' newfile 
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/250e4979-ffbf-4a36-a527-bd9428a396a3)
+
 ## OUTPUT
 
 
@@ -210,11 +251,17 @@ egrep 'Linux.*World' newfile
 
 
 egrep l{2} newfile
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/6a512571-4172-43b7-9bb0-96ecb8b4473c)
+
 ## OUTPUT
 
 
 
 egrep 's{1,2}' newfile
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/7fe6fe49-9a16-4cb8-a159-342a0adb16a3)
+
 ## OUTPUT 
 
 
@@ -231,82 +278,130 @@ cat > file23
 ^d
 ```
 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/e134bdad-8b94-49b1-b06e-b033e540fed2)
+
 
 sed -n -e '3p' file23
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/9230cd8e-9c85-44de-ab31-479db5a01089)
+
 ## OUTPUT
 
 
 
 sed -n -e '$p' file23
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/6a35f019-5cdc-4f63-a617-75003277625d)
+
 ## OUTPUT
 
 
 
 sed  -e 's/Ram/Sita/' file23
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/095a5edc-eda2-42c8-9a06-f5c9f83b7a15)
+
 ## OUTPUT
 
 
-
 sed  -e '2s/Ram/Sita/' file23
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/293c5747-8b19-4f45-ab42-cd24cdcacc2e)
+
 ## OUTPUT
 
 
 
 sed  '/tom/s/5000/6000/' file23
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/c611f39b-012c-4923-8f1e-be1261ac3b0e)
+
 ## OUTPUT
 
 
 
 sed -n -e '1,5p' file23
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/174a53cf-3083-48aa-bf15-aa81997c53ee)
+
 ## OUTPUT
 
 
 
 sed -n -e '2,/Joe/p' file23
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/47d896cd-ec9b-4f5f-ae81-de87afc0bead)
+
 ## OUTPUT
 
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/da0a325e-dbe5-47d3-ad18-366965f3cbc3)
+
 ## OUTPUT
 
 
 
 seq 10 
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/cef77d40-7cc2-4ffc-8b8e-ac829b3e0a0a)
+
 ## OUTPUT
 
 
 
 seq 10 | sed -n '4,6p'
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/6f5f7510-d03d-4702-8c3d-9d61e69112cf)
+
 ## OUTPUT
 
 
 
 seq 10 | sed -n '2,~4p'
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/cb7d61f8-5352-4a9a-9281-f5aa8b29823a)
+
 ## OUTPUT
 
 
 
 seq 3 | sed '2a hello'
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/010818e8-276f-4bb6-98db-a8faa28c7cb1)
+
 ## OUTPUT
 
 
 
 seq 2 | sed '2i hello'
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/8e4fd4d8-7c4c-479f-833d-391d8d4c0880)
+
 ## OUTPUT
 
 
 seq 10 | sed '2,9c hello'
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/b52c8bac-b018-42aa-8407-fa4b2a66fe0c)
+
 ## OUTPUT
 
 
 sed -n '2,4{s/^/$/;p}' file23
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/df26b22d-e94c-4e92-a9ab-b4ee22722403)
+
 ## OUTPUT
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+
+
 
 
 #Sorting File content
