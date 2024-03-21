@@ -129,16 +129,19 @@ grep Hello newfile
 
 
 grep hello newfile 
+
 ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/0837caf9-b302-4def-967a-6a7c8a5cdff6)
 
 ## OUTPUT
 
-grep -v hello newfile 
+grep -v hello newfile
+
 ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/412b8aa3-1325-4af4-9c33-4ba1dbba8656)
 
 ## OUTPUT
 
 cat newfile | grep -i "hello"
+
 ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/b0a71a5f-b56b-4620-ae84-99bfaad1564d)
 
 
@@ -595,7 +598,7 @@ chmod 777 scriptest.sh
 
 ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/2e16bd60-d505-4007-b33f-56db9624a4e9)
 
- ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/5231a559-d457-4144-9049-3cc26942878f)
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/5231a559-d457-4144-9049-3cc26942878f)
 
 ls file1
 ## OUTPUT
@@ -898,6 +901,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
+
 ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/a41b9a13-0f5e-42d0-a411-0fb590cd5671)
 
 # using the case command
@@ -918,7 +923,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/71cc9ac9-051e-4f13-bfb3-ec66612cee3f)
+ 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/71cc9ac9-051e-4f13-bfb3-ec66612cee3f)
 
 cat > whiletest
 ```bash
@@ -947,7 +953,8 @@ echo $var1
 var1=$[ $var1 - 25 ]
 done
 ```
- ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/9130f11b-7819-4a41-8fd4-57cff80b6ca9)
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/9130f11b-7819-4a41-8fd4-57cff80b6ca9)
 $ chmod 755 untiltest.sh
  
 cat forin1.sh 
@@ -961,12 +968,14 @@ do
 echo The next state is $test
 done
  ```
- ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/0a3743d0-8c59-4c10-bf0e-2cd411f5a494)
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/0a3743d0-8c59-4c10-bf0e-2cd411f5a494)
 
 $ chmod 755 forin1.sh
  
  
 cat forin2.sh 
+
 ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/60624a1d-3322-40f2-a790-f3ee3a89485f)
 
 ```bash
@@ -996,7 +1005,7 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/7701db5e-5306-425a-9d5d-012edd323a05)
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/7701db5e-5306-425a-9d5d-012edd323a05)
 
 ## OUTPUT
 cat forinfile.sh 
@@ -1038,7 +1047,9 @@ $ ./forctype.sh
 
 
 ## OUTPUT
+
 ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/7ec1f0ea-f930-4b88-aeeb-a1258e80f53a)
+
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -1051,6 +1062,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+
 ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/385006b9-d49d-465c-a1d5-0e996d06fcb5)
 
 cat fornested1.sh 
@@ -1092,7 +1104,8 @@ echo "The for loop is completed“
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
- ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/24fe1758-0ec0-41b7-8fa5-ca31c39c85b1)
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/24fe1758-0ec0-41b7-8fa5-ca31c39c85b1)
 
 cat forbreak.sh 
 ```bash
@@ -1113,6 +1126,7 @@ echo "The for loop is completed“
 $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
+
 ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/6a9303d1-a881-47ed-bd9d-099ef3c21dbc)
 
 ## OUTPUT
@@ -1130,6 +1144,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+
 ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/85ce33d2-6012-4571-ab07-2cfa54eb95f0)
 
 
@@ -1143,6 +1158,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+
 ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/57b56712-3e10-4abe-ab75-ddd1b0f1f04a)
 
 
@@ -1168,7 +1184,8 @@ fi
  ./funcex.sh 
 
  ./funcex.sh 1 2
-![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/ebd3ec88-ada0-4d86-b1e5-abe28f1a6b7a)
+ 
+ ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/ebd3ec88-ada0-4d86-b1e5-abe28f1a6b7a)
 
  
 cat argshift.sh
@@ -1183,7 +1200,9 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/ccb7ee05-e9c1-4592-92ec-6f67e8b7f853)
+
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/ccb7ee05-e9c1-4592-92ec-6f67e8b7f853)
 
  cat argshift1.sh
 ```bash
@@ -1201,7 +1220,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/c736a718-56b3-4417-a87c-f86a1c6a818f)
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/c736a718-56b3-4417-a87c-f86a1c6a818f)
 
 cat argshift.sh
 ```bash
@@ -1215,6 +1235,7 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
+ 
  ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/c29ad95b-c169-4ff1-8f0e-74b6f1c15b00)
 
  
@@ -1251,7 +1272,9 @@ ubcdfghj
 
 awk -f nc.awk data.dat
 ## OUTPUT 
- ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/2774c0cd-c926-4206-8350-29d39440505c)
+
+
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/2774c0cd-c926-4206-8350-29d39440505c)
 
 cat > palindrome.sh
 ```bash
@@ -1279,6 +1302,7 @@ else
 fi
 ```
 ## OUTPUT 
+
 ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/37b5c6c2-d570-451c-bd4a-9fb00b0c8ef2)
 
 
