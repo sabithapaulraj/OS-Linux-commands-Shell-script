@@ -770,6 +770,7 @@ fi
 ```
 
 
+
 cat iftest.sh 
 ```bash
 \#!/bin/bash
@@ -786,6 +787,7 @@ else
 echo “The values are different”
 fi
 ```
+
 
 
 
@@ -916,7 +918,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+ ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/71cc9ac9-051e-4f13-bfb3-ec66612cee3f)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -931,7 +934,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/15ebf32c-fbd1-4e33-8530-7b77bd53c75d)
+
  
 cat untiltest.sh 
 ```bash
@@ -942,12 +946,13 @@ do
 echo $var1
 var1=$[ $var1 - 25 ]
 done
-``` 
+```
+ ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/9130f11b-7819-4a41-8fd4-57cff80b6ca9)
 $ chmod 755 untiltest.sh
  
- 
- 
 cat forin1.sh 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/87df45c8-b2a7-4cbd-897b-e024ec0c1de0)
+
 ```bash
 \#!/bin/bash
 \#basic for command
@@ -956,11 +961,14 @@ do
 echo The next state is $test
 done
  ```
- 
+ ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/0a3743d0-8c59-4c10-bf0e-2cd411f5a494)
+
 $ chmod 755 forin1.sh
  
  
 cat forin2.sh 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/60624a1d-3322-40f2-a790-f3ee3a89485f)
+
 ```bash
 \#!/bin/bash
 \# another example of how not to use the for command
@@ -973,19 +981,12 @@ done
 $ chmod 755 forin2.sh
  
 cat forin2.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don't know if this'll work
-do
-echo “word:$test”
-done
-```
-$ chmod 755 forin2.sh
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/5db7c59d-3bfc-4284-822d-d06f00ff1435)
+
  
-$ ./forin2.sh 
- 
-cat forin3.sh 
+cat forin3.sh
+
+
 ```bash
 \#!/bin/bash
 \# another example of how not to use the for command
@@ -995,17 +996,7 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
-cat forin1.sh 
-```bash
-#!/bin/bash
-# basic for command
-for test in Alabama Alaska Arizona Arkansas California Colorado
-do
-echo The next state is $test
-done
-```
-$ chmod 755 forin1.sh
+ ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/7701db5e-5306-425a-9d5d-012edd323a05)
 
 ## OUTPUT
 cat forinfile.sh 
@@ -1029,7 +1020,9 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/587f8b75-9e7b-42fb-abe6-ee595a8aa805)
 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/8b1fd7ea-f2b6-43ca-9197-6f6036c19ac2)
 
 cat forctype.sh 
 ```bash
@@ -1042,8 +1035,10 @@ done
 ````
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
-## OUTPUT
 
+
+## OUTPUT
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/7ec1f0ea-f930-4b88-aeeb-a1258e80f53a)
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -1056,6 +1051,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/385006b9-d49d-465c-a1d5-0e996d06fcb5)
 
 cat fornested1.sh 
 ```bash
@@ -1074,6 +1070,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/24658c9b-c66b-4fe2-9eb2-a556f73de444)
 
  
 cat forbreak.sh 
@@ -1090,12 +1087,13 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
+
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
- 
+ ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/24fe1758-0ec0-41b7-8fa5-ca31c39c85b1)
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -1115,6 +1113,8 @@ echo "The for loop is completed“
 $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/6a9303d1-a881-47ed-bd9d-099ef3c21dbc)
+
 ## OUTPUT
  
 cat exread.sh 
@@ -1130,6 +1130,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/85ce33d2-6012-4571-ab07-2cfa54eb95f0)
 
 
  cat exread1.sh
@@ -1142,6 +1143,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/57b56712-3e10-4abe-ab75-ddd1b0f1f04a)
 
 
 
@@ -1165,8 +1167,8 @@ fi
 ## OUTPUT
  ./funcex.sh 
 
- 
  ./funcex.sh 1 2
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/ebd3ec88-ada0-4d86-b1e5-abe28f1a6b7a)
 
  
 cat argshift.sh
@@ -1181,7 +1183,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/ccb7ee05-e9c1-4592-92ec-6f67e8b7f853)
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1198,7 +1201,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/c736a718-56b3-4417-a87c-f86a1c6a818f)
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1211,7 +1215,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+ ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/c29ad95b-c169-4ff1-8f0e-74b6f1c15b00)
+
  
 cat > nc.awk
 ```bash
@@ -1227,6 +1232,8 @@ print "Number of Lines are",NR
 print "No of Words count:",wordcount
 }
  ```
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/d7850997-0a34-4786-a55a-9f89853f7664)
+
 cat>data.dat
 ```bash
 bcdfghj
@@ -1240,9 +1247,12 @@ obcdfghj
 bcdfghj
 ubcdfghj
 ```
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/af6b4b57-0562-4499-bdeb-970163211290)
+
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/2774c0cd-c926-4206-8350-29d39440505c)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1269,6 +1279,7 @@ else
 fi
 ```
 ## OUTPUT 
+![image](https://github.com/sabithapaulraj/OS-Linux-commands-Shell-script/assets/118343379/37b5c6c2-d570-451c-bd4a-9fb00b0c8ef2)
 
 
 # RESULT:
